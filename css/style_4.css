@@ -10,29 +10,30 @@ header{
     display: block;
 }
 nav{
-    padding: 40px;
+    line-height: 20px;
+    padding: 20px;
     background-color: cadetblue;
     color: blueviolet;
 }
+
 section{
     float: none;
     background-color: coral;
     padding-top: 10px;
     margin: 0%;
 }
+div{
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.side{
+    background-color: lightblue;
+}
+.center{
+    background-color: lightcyan;
+}
     
-.box {
-    float: left;
-    width: 25%;
-    padding: 50px;
-    height: 121px;
-  }
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 footer{
     clear: both;
     padding: 10px;
