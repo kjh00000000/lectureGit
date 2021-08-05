@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    padding: 10px;
+    background-color: aqua;
+    display: block;
+}
+nav{
+    padding: 40px;
+    background-color: cadetblue;
+    color: blueviolet;
+}
+section{
+    float: none;
+    background-color: coral;
+    padding-top: 10PX;
+    margin: 0%;
+}
+    
+.box {
+    float: left;
+    width: 25%;
+    padding: 50px;
+    height: 121px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+footer{
+    clear: both;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
