@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px
+}
+header{
+    padding: 10px;
+    display: block;
+    background-color: beige;    
+}
+nav{
+    padding: 10px;
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+section{
+    float: none;
+    padding: 10px;
+    background-color: burlywood;
+}
+footer{
+    clear: both;
+    padding: 10px;
+    background-color: burlywood;
+}
